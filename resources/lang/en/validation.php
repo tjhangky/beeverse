@@ -144,6 +144,12 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'hobby' => [
+            'min' => 'Please select at least :min :attribute.',
+        ],
+        'amount' => [
+            'required' => 'The amount field is required.',
+        ]
     ],
 
     /*
